@@ -41,7 +41,7 @@ echo
 
 # Install all available updates from Apple, if any;
 # & will run the command in the background
-softwareupdate -i -a &
+softwareupdate -i -a #&  # removed because it seemed to cause freezing
 
 # wait is used to wait for the background command above to finish running
 #wait # Dont't think this is necessary as softwareupdate reboots the Mac on
